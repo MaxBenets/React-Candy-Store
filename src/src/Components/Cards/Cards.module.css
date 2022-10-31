@@ -1,0 +1,90 @@
+.cards{
+    padding-top: 50px;
+}
+
+.card{
+    width: 31%;
+    margin: 10px;
+    transition: 0.3s;
+    background: rgb(251, 251, 251);
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.h2{
+    font-size: 30px;
+    font-family: "Montserrat";
+}
+.h3{
+    font-family: "Inter";
+}
+.p{
+    font-family: "Roboto";
+    font-weight: 100;
+    color: #343434;
+    margin-top: 20px;
+}
+
+.img{
+    width: 100%;  
+    padding: 20px; 
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.save{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.cardInfo{
+    display: flex;
+}
+.basket{
+    opacity: 0.7;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0; left: 0;
+}
+
+@media (max-width: 850px) {
+    .flex{
+        display: block
+    }
+    .card{
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+
+
+
+.error{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    opacity: 0.9;
+}
+.error_pic{
+    max-width: 300px;
+}
+.error_mes{
+    margin-top: 20px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 35px;
+}
+.error_about{
+    font-family: "Roboto";
+    margin-top: 6px;
+    font-size: 23px;
+    color: #343434;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
